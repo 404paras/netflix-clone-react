@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@media (max-width:768px) {
+    body {
+        overflow: hidden scroll;
+    }
+}

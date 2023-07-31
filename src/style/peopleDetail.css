@@ -1,0 +1,82 @@
+.info-section {
+    display: flex;
+    margin: 1rem 3rem 1rem 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-img {
+    padding: 5rem 4rem 2rem 3rem;
+}
+
+.info-img>img {
+    height: 70vh;
+    border-radius: 0 2rem 0 2rem;
+}
+
+.info-details {
+    height: 70%;
+    color: white;
+    padding: 1rem 10rem 2rem 0;
+}
+
+.info-details>.name {
+    font-size: 2.5rem;
+}
+
+.info-details>.biography {
+    font-size: 1.52rem;
+    color: rgb(183, 178, 178);
+}
+
+.info-details>.bio-data {
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.info-details>.moreinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bday {
+    color: rgb(183, 178, 178);
+    word-spacing: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.bday>.data {
+    color: white;
+}
+
+@media (max-width:768px) {
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -2rem;
+    }
+    .info-img>img {
+        height: 45vh;
+        border-radius: 1rem 0 1rem 0;
+    }
+    .info-details {
+        color: white;
+        padding: 0 1rem 2rem 0;
+    }
+    .info-details>.name {
+        font-size: 1.5rem;
+    }
+    .info-details>.biography {
+        font-size: 1rem;
+    }
+    .info-details>.bio-data {
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    .bday {
+        justify-content: space-between;
+        word-spacing: 0.1rem;
+        font-size: 0.5rem;
+    }
+}

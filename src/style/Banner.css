@@ -1,0 +1,99 @@
+.banner {
+    position: relative;
+    top: -5rem;
+    display: flex;
+}
+
+.left {
+    position: relative;
+    top: 13rem;
+    flex: 4;
+    margin-left: 4rem;
+    color: white;
+}
+
+.left>span {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.left>.desc {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.left>.btn {
+    display: flex;
+}
+
+.banner-btn1 {
+    cursor: pointer;
+    display: flex;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin: 0.4rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in all;
+}
+
+.banner-btn2 {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 5px;
+    transition: 0.3s ease-in all;
+    margin: 0.4rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(163, 161, 161);
+    color: white;
+    border: none
+}
+
+svg {
+    padding: 0.2rem;
+    margin: 0 -0.3rem 0 0;
+    fill: white;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(132, 129, 129);
+}
+
+@media (max-width: 768px) {
+    .banner {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .left>span {
+        font-size: 2.5rem;
+        opacity: 1;
+    }
+    .left>.desc {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+}

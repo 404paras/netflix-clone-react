@@ -1,0 +1,46 @@
+.movie {
+    margin: 2rem 0 2rem 3rem;
+}
+
+.movie>span {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+    color: white;
+}
+
+.movie-list {
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1.2rem;
+}
+
+ ::-webkit-scrollbar {
+    height: 7px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+    border-color: transparent;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+@media (max-width: 767px) {
+    .movie {
+        margin: 2rem 0 2rem 1rem;
+    }
+    .movie-list {
+        overflow: scroll;
+    }
+}
